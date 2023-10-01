@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Signika+Negative&family=Yeon+Sung&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #914545   ;
+    padding: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    height: 40px;
+    border-radius: 20px;
+}
+.logo img:hover{
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px cyan , 0 0 25px green;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;  
+    padding: 0px 14px;
+    
+}
+#navbar li a:hover{
+    text-decoration: none;
+    color: black;  
+    padding: 0px 14px;
+    font-weight: bold;
+    
+}
+#navbar li{
+    
+    padding: 6px 11px;
+    
+     
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    background-color: rgb(177, 5, 5);
+    background: center / cover no-repeat url("../static/bg1\ \(1\).jpg");
+    /* font-family: 'Signika Negative', sans-serif; */
+    font-family: 'Yeon Sung';
+    font-size: 4rem;
+    padding-bottom: 160px;
+
+}
+
+#ourmission  {
+    height: 300px;
+    background-color: white;
+    width: 76%;
+    margin: auto;
+    
+}
+
+#ourmission h2{
+    text-align: center;
+    padding-top: 17px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.card{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 28%;
+    margin: 25px 20px;
+    height: 200px;
+    display: inline-block;
+}
+
+.card:hover{
+    /* border: 2px solid yellow;
+    border-radius: 10px;
+    width: 29%;
+    margin: 25px 25px;
+    height: px;
+    display: inline-block; */
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 28%;
+    margin: 25px 20px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 0 0 5px yellow , 0 0 25px green;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: spa;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 17px;
+}
+.card-content p{
+    font-size: 16px;
+}
+#introSection div.small{
+    font-size: 2.5rem;
+    padding: 8px;
+} 
+
+#sponserSection {
+    height: 300px;
+    background-color: rgb(236, 186, 186);
+    
+}
+#sponserSection h2{
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 40px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.spimg{
+    height: 130%;
+    margin: 35px 62px;
+    width: 100%;
+    padding-top: 13px;
+    
+}
+#footer{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Yeon Sung';
+    color: white;
+    font-size: 20px;
+
+}

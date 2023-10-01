@@ -3,10 +3,10 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const port = 8000;
-const bodyparser  = require("body-parser");
+// const bodyparser  = require("body-parser");
 // using mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/contactDance');
+mongoose.connect('mongodb://sudarshangiram20:sudarshangiram20@ac-lzc8ydh-shard-00-00.ge4typk.mongodb.net:27017,ac-lzc8ydh-shard-00-01.ge4typk.mongodb.net:27017,ac-lzc8ydh-shard-00-02.ge4typk.mongodb.net:27017/dancer?ssl=true&replicaSet=atlas-gg74w5-shard-0&authSource=admin&retryWrites=true&w=majority');
 
 //Defining Schema For Data Base
 const contactSchema = new mongoose.Schema({

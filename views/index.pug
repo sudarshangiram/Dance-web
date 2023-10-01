@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    title Best Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul  
+            div.logo
+                img(src="../static/png1.png", alt="")
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class info ]
+            li #[a(href="/") Contact Us]
+            
+    section#introSection
+        div Welcome To The Best Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#ourmission 
+        h2 Our Mission
+        div.card 
+            h3 Dance Your Soul Away
+            div.card-box
+                div.card-img
+                    img(src="../static/png3.png", alt="dancing boy")
+                div.card-content
+                    p  Dancing is one of the best exercises for our body. It relaxes our minds.
+        div.card 
+            h3 Create-Dance-Live
+            div.card-box
+                div.card-img
+                    img(src="../static/png1.png", alt="dancing boy")
+                div.card-content
+                    p Dancing is one of the best exercises for our body.
+        div.card 
+            h3 Reign The Dance
+            div.card-box
+                div.card-img
+                    img(src="../static/png2 (1).png", alt="dancing boy")
+                div.card-content
+                    p The tradition of dance in Indian history has been going on since ancient times.
+    section#sponserSection 
+        h2 Our Sponsers
+        div.sponsers
+            img(src="../static/sponserlogo1 (2).png", alt="tata_motors" class="spimg")
+            img(src="../static/sponserlogo2.png", alt="tata_motors" class="spimg")
+            img(src="../static/sponserlogo3.png", alt="tata_motors" class="spimg")
+            img(src="../static/sponserlogo4.png", alt="tata_motors" class="spimg")
+    footer#footer
+        div.footercontent Copyright © 2023 The Best Dance Academy | All Rights Reserved
+    script
+      include ../static/script.js
